@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+    
+}
+body{
+	line-height: 1.5;
+}
+.profileSectionContainer{
+	position: relative;
+	min-height: 80vh;
+	top: 5.8rem;
+	display: grid;
+	align-items: center;
+	background-color: red;
+}
+.profileContainer{
+	display: flex;
+	justify-content: flex-start;
+	height: 100%;
+	background-color: white;
+	padding: 2rem;
+}
+.profile{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: gray;
+	padding: 2rem;
+}
+.profile img{
+	border-radius: 50%;
+	height: 20em;
+  	width: 20em;
+}
+.profile .name{
+	font-size: 30px;
+}
+.profile .dlink{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+.col{
+	background-color: gainsboro;
+	padding: 2rem;
+	width: 100%;
+}
+.col h1{
+	font-size: 50px;
+}
+.projectDetails,
+.aboutDetails{
+	display: flex;
+	justify-content: space-around
+}
+.col_TitleDetails{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding: 1rem;
+	width: 40%;
+	
+}
+.col_TitleDetails h5{
+	padding: 8px;
+	font-size: 20px;
+}
+.col_Details p{
+	padding: 8px;
+	display: flex;
+	align-items: flex-start;
+	border-bottom: .1rem solid #05AAAF;
+	font-size: 20px;
+}

@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+.hero{
+    width:100%;
+    display: flex;
+    padding: 2rem 2rem;
+	top: 5.8rem;
+}
+
+.row
+{
+    width: 90%;
+    height: 100vh;
+    margin-left: -3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.preview img
+{
+    height: 80%;
+    width: 75%;
+    margin-left: 50%;
+    margin-bottom: 150%;
+    margin-top: 150%;
+}
+.col
+{
+    flex-basis: 45%;
+    padding-left: 50%;
+float: left;
+padding-top: 35%;
+position: absolute;
+overflow: visible;
+zoom: 1;
+min-height: 1px;
+
+text-align: start;
+margin-top: -25%;
+margin-right: 5%;
+margin-left: -42%;
+cursor: pointer;
+}
+.slider {
+    height: 80vh;
+    display: flex;
+    align-items:initial;
+    margin-left: 40%;
+    
+}
+.product img{
+    height: 19vh;
+    margin-bottom: 10%;
+    align-items: initial;
+    position: none;
+    display: flex;
+    margin-left: -40px;
+    vertical-align: top;
+    overflow: auto;
+    zoom: 1;
+    min-height: 1px;
+    margin-top: none;
+    opacity: 0.6;
+    border-top: 70cm;
+  }
+  .product img:hover
+  {
+      opacity: 1;
+  }
+
+.content
+{
+    flex-basis: 45%;
+    padding-left: 20%;
+    float: left;
+    padding-top: 40%;
+   
+    overflow: visible;
+    zoom: 1;
+    min-height: 1px;
+    margin-top: -30%;
+    margin-right: 50%;
+    margin-left: -45%;
+    padding-right: 0%;
+    margin-right: -15%;
+}
+
+
+
+p{
+    margin-bottom: 20px;
+}
+.brand
+{
+    background: #008000;
+    width: fit-content;
+    color: #fff;
+    font-size: 12px;
+    padding:2px 5px;
+
+}
+h2{
+    font-size: 45px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.rating{
+    display:flex;
+    height: 15px;
+
+}
+.rating .fa
+{
+    color: #008000;
+}
+.price{
+    color: #fe980f;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+input{
+    width: 30px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    background: #fe980f;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+button .fa
+{
+    margin: 10px;
+}
+script{
+    cursor: pointer;
+}
+.hero1{
+    width:100%;
+   display: flex;
+    padding: 0 3rem;
+    margin: 0;
+
+}
+.related
+{
+    width: 100%;
+    margin: 0 auto 40px;
+    padding: 0 1rem;
+}
+.related .row{
+    width:100%;
+    height: auto;
+
+}
+.column{
+    flex-basis: 22%;
+    height: 100%;
+
+}
+.items img{
+    width: 100%;
+
+}
+.details{
+    margin-top: 20px;
+
+}
+.details p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.details .rating{
+    margin: 10px 0;
+}
